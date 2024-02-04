@@ -1,4 +1,4 @@
-body{
+body {
   height: 100%;
 }
 .PuraInvoice {
@@ -13,7 +13,7 @@ body{
   margin-left: 0;
   margin-right: 0;
   margin-bottom: 0;
-  padding-top: 3px;
+  padding-top: 0px;
   padding-bottom: 0px;
 }
 .wrapperdiv {
@@ -28,24 +28,42 @@ body{
   justify-content: space-between;
   /* margin-top: 5px; */
   /* margin: 0; */
+
   width: 100%;
   height: auto;
   margin-bottom: 0px;
+  padding-top: 2px;
+  padding-bottom: 2px;
 }
 .row1 {
   display: flex;
   justify-content: flex-end;
   /* margin-top: 5px; */
   /* margin: 0; */
+
   width: 100%;
   height: auto;
+  padding-top: 2px;
+  padding-bottom: 2px;
 }
 .seller-details {
   width: 30%;
+  text-align: left;
+  margin-left: 3px;
+  margin-right: 3px;
+  /* display: flex; */
+  /* justify-content: left; */
 }
 .billing-address {
   width: 40%;
+  text-align: right;
+  margin-left: 3px;
+  margin-right: 3px;
+  /* display: flex; */
+  /* justify-content: flex-end; */
+  /* align-content: flex-end; */
 }
+
 table {
   width: 100%;
 }
@@ -56,5 +74,11 @@ td {
   border-collapse: collapse;
 }
 img {
-  width: 100%;
+  width: 60%;
+}
+.addHeaderInfo {
+  text-align: right;
+}
+.logo img{
+  width: 90%;
 }
