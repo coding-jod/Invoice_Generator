@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="wrapperdiv">
+      <div class="PuraInvoice">
+        <div class="row">
+          <div class="logo">
+            <img src="./Screenshot 2024-02-01 170457.png" alt="barnd-logo" />
+          </div>
+          <div class="addHeaderInfo">
+            <h3>Tax Invoice/Bill of Supply/Cash Memo</h3>
+            <p>(Original for Recipient)</p>
+          </div>
+        </div>
+
+        <div class="row">
+          <!-- <div></div> -->
+          <div class="seller-details">
+            <h4>Sold By :</h4>
+            <p>
+              <span id="insert_seller_address">
+                Cecilia Chapman 711-2880 Nulla St. Mankato Mississippi 96522
+                (257) 563-7401
+              </span>
+            </p>
+          </div>
+          <!-- <div></div> -->
+          <div class="billing-address">
+            <h4>Billing Adress:</h4>
+            <p>
+              <span id="insert_billing_address">
+                Celeste Slater 606-3727 Ullamcorper. Street Roseville NH 11523
+                (786) 713-8616
+              </span>
+            </p>
+          </div>
+        </div>
+        <div class="row">
+          <div id="PANGST">
+            <h5>PAN No: <span id="insert_pan">AACFV3325K</span></h5>
+            <h5>
+              GST Registration No.: <span id="insert_gst">29AACFV3325K1ZY</span>
+            </h5>
+          </div>
+          <div>
+            <h5>State/UT Code:<span id="insert_state_code">29</span></h5>
+          </div>
+        </div>
+        <div class="row1">
+          <div class="billing-address">
+            <h4>Shipping Adress:</h4>
+            <p>
+              <span id="insert_shipping_address">
+                Theodore Lowe Ap #867-859 Sit Rd. Azusa New York 39531 (793)
+                151-6230
+              </span>
+            </p>
+            <h5>State/UT Code: <span id="insert_ship_state_code">29</span></h5>
+            <h5>
+              Place of Supply: <span id="insert_supply_place">KARNATAKA</span>
+            </h5>
+            <h5>
+              Place of Delivery: <span id="insert_del_place">KARNATAKA</span>
+            </h5>
+          </div>
+        </div>
+        <div class="row">
+          <div class="seller-details">
+            <h5>
+              Order Number:<span id="insert_order_num"
+                >403-3225714-7676307</span
+              >
+            </h5>
+            <h5>Order Date: <span id="insert_order_date">28.10.2019</span></h5>
+          </div>
+          <div class="billing-address">
+            <h5>Invoice Number: <span id="insert_invoice_num">IN-761</span></h5>
+            <h5>
+              Invoice Details:
+              <span id="insert_invoice_details">KA-310565025-1920</span>
+            </h5>
+            <h5>
+              Invoice Date: <span id="insert_invoice_date">28.10.2019</span>
+            </h5>
+          </div>
+        </div>
+        <div class="ordertable">
+          <table id="insert_item_row">
+            <tr>
+              <th>Sl. No.</th>
+              <th>Description</th>
+              <th>Unit Price</th>
+              <th>Qty.</th>
+              <th>Discount %</th>
+              <th>Net Amount</th>
+              <th>Tax Rate</th>
+              <th>Tax type</th>
+              <th>Tax Amount</th>
+              <th>Total Amount</th>
+            </tr>
+          </table>
+        </div>
+      </div>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>

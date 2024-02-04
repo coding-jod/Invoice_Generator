@@ -1,0 +1,60 @@
+body{
+  height: 100%;
+}
+.PuraInvoice {
+  width: 35%;
+  border: 1px solid black;
+  padding: 4px;
+  height: 100%;
+}
+
+* {
+  margin-top: 0;
+  margin-left: 0;
+  margin-right: 0;
+  margin-bottom: 0;
+  padding-top: 3px;
+  padding-bottom: 0px;
+}
+.wrapperdiv {
+  display: flex;
+  justify-content: center;
+  height: 50%;
+  width: 100%;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  /* margin-top: 5px; */
+  /* margin: 0; */
+  width: 100%;
+  height: auto;
+  margin-bottom: 0px;
+}
+.row1 {
+  display: flex;
+  justify-content: flex-end;
+  /* margin-top: 5px; */
+  /* margin: 0; */
+  width: 100%;
+  height: auto;
+}
+.seller-details {
+  width: 30%;
+}
+.billing-address {
+  width: 40%;
+}
+table {
+  width: 100%;
+}
+table,
+th,
+td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+img {
+  width: 100%;
+}
