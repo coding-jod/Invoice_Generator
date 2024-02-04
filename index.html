@@ -7,14 +7,17 @@
     <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
-    <div class="wrapperdiv">
+    <!-- Basic Layout:  There is a wrapper div containing invoice which is made up of divs named rows -->
+    <!-- each div is made up of two divs with styling almost persistent at all rows -->
+    <!-- In the end there is a basic table to print the required order details  -->
+    <div class="wrapperdiv"> 
       <div class="PuraInvoice">
         <div class="row">
           <div class="logo">
             <img src="./Screenshot 2024-02-01 170457.png" alt="barnd-logo" />
           </div>
           <div class="addHeaderInfo">
-            <h3>Tax Invoice/Bill of Supply/Cash Memo</h3>
+            <h4>Tax Invoice/Bill of Supply/Cash Memo</h4>
             <p>(Original for Recipient)</p>
           </div>
         </div>
@@ -48,7 +51,7 @@
               GST Registration No.: <span id="insert_gst">29AACFV3325K1ZY</span>
             </h5>
           </div>
-          <div>
+          <div class="billing-address">
             <h5>State/UT Code:<span id="insert_state_code">29</span></h5>
           </div>
         </div>
@@ -71,7 +74,7 @@
           </div>
         </div>
         <div class="row">
-          <div class="seller-details">
+          <div class="order_details">
             <h5>
               Order Number:<span id="insert_order_num"
                 >403-3225714-7676307</span
